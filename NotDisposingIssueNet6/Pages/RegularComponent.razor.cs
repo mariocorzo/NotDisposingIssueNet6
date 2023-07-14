@@ -2,7 +2,7 @@
 
 namespace NotDisposingIssueNet6.Pages
 {
-    public partial class Issue
+    public partial class RegularComponent
     {
         public bool ShowComponent;
 

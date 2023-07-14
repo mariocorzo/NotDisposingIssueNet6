@@ -10,7 +10,7 @@
   "profiles": {
     "NotDisposingIssueNet6": {
         "commandName": "Project",
-        "launchUrl": "issue",
+        "launchUrl": "extension",
         "dotnetRunMessages": true,
         "launchBrowser": true,
         "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",

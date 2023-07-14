@@ -1,0 +1,16 @@
+﻿@page "/extension"
+
+@using NotDisposingIssueNet6.Components;
+@using Piral.Blazor.Utils
+<h3>Piral Extension</h3>
+
+<Button @onclick="ShowExtensionButtonClicked">@GetShowExtensionButtonText()</Button>
+@if (@ShowExtension)
+{
+	<Extension Name="@ExtensionOne.PiralExtensionName"></Extension> 
+}
+else
+{
+}
+
+
